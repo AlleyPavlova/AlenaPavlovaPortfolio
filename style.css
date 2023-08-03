@@ -1,0 +1,16 @@
+header {
+background-color: rgb(58, 188, 186);
+height: 300px;
+}
+
+
+.main {
+background-color: white;
+height: 600px;
+}
+
+
+footer {
+background-color: #E1EDEA;
+height: 300px;
+}
