@@ -1,6 +1,6 @@
 header {
-background-color: rgb(58, 188, 186);
-height: 300px;
+background-color:#8DD3C3;
+height: auto;
 }
 
 
@@ -9,8 +9,17 @@ background-color: white;
 height: 600px;
 }
 
-
 footer {
 background-color: #E1EDEA;
 height: 300px;
+}
+.textHeader {
+    font: size 60px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.ilTopnav {
+    display: flex;
+    padding: 50px 100px;
 }
