@@ -1,3 +1,6 @@
+a {
+    text-decoration: none;
+}
 header {
 background-color:#8DD3C3;
 height: auto;
@@ -29,13 +32,18 @@ height: 300px;
 }
 .ulTopnav {
     padding: 20px 50px;
+    display: flex;
+    justify-content: center;
 }
 
 .ilTopNav {
     display: inline-block;
-    padding: 20px 30px;
+    padding: 10px;
+    width: 187px;
+    text-align: center;
+    margin-right: 20px;
     border: solid rgb(255, 255, 255) 2px;
-    border-radius: 40%;
+    border-radius: 40px;
     background-color: white;
     color: #254D88;
 
@@ -43,6 +51,7 @@ height: 300px;
 
 .ilTopNav a{
     text-decoration: none;
+    color: #254D88;
     font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
 
