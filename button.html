@@ -1,86 +1,12 @@
-a {
-    text-decoration: none;
-}
-header {
-background-color:#8DD3C3;
-height: auto;
-}
-
-h1{
-    color: #254D88;
-
-}
-
-p{
-    color: #254D88;
-}
-
-
-.main {
-background-color: white;
-height: 600px;
-}
-
-footer {
-background-color: #E1EDEA;
-height: 300px;
-}
-.textHeader {
-    font: size 60px;
-    font-family: 'Times New Roman', Times, serif
-
-}
-.ulTopnav {
-    padding: 20px 50px;
-    display: flex;
-    justify-content: center;
-}
-
-.ilTopNav {
-    display: inline-block;
-    padding: 10px;
-    width: 187px;
-    text-align: center;
-    margin-right: 20px;
-    border: solid rgb(255, 255, 255) 2px;
-    border-radius: 40px;
-    background-color: white;
-    color: #254D88;
-
-}
-
-.ilTopNav a{
-    text-decoration: none;
-    color: #254D88;
-    font-size: 20px;
-    font-family: 'Times New Roman', Times, serif;
-
-}
-.bio {
-    display: flex;
-}
-
-.featured {
-    display: flex;
-}
-.portfolio-card img {
-    width: 100%;
-}
-.portfolio-card p {
-    text-align: center;
-}
-button {
-background-color: #8DD3C3;
-margin: 0 50px;
-padding: 4% 25%;
-text-align: center;
-border: none;
-border: 2px solid #8DD3C3;
-border-radius: 50%;
-}
-
-
-:root{
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    :root{
     /* color type A */
     --line_color : #254D88 ;
     --back_color :#8DD3C3 ;
@@ -307,15 +233,25 @@ border-radius: 50%;
 /* 本体には関係ないスタイル */
 .container{
     width : 100% ;
-    height : 90px ;
+    height : 300px ;
     display : flex ;
     flex-direction : column ;
     justify-content : center ;
     align-items : center ;
 }
+</style>
+<body>
+    <div class="container">
 
-.portfolio-card {
-    border: 1px solid red;
-    padding: 2%;
-    width: 50%;
-}
+        <a href="#" class="button">
+          <div class="button__line"></div>
+          <div class="button__line"></div>
+          <span class="button__text">view project</span>
+          <div class="button__drow1"></div>
+          <div class="button__drow2"></div>
+        </a>
+      
+      </div>
+    
+</body>
+</html>
