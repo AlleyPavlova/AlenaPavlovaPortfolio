@@ -300,10 +300,6 @@ border-radius: 50%;
 }
 
 
-
-
-
-
 /* 本体には関係ないスタイル */
 .container{
     width : 100% ;
@@ -319,3 +315,4 @@ border-radius: 50%;
     padding: 2%;
     width: 50%;
 }
+
