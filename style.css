@@ -18,8 +18,17 @@ p{
 
 .main {
 background-color: white;
-height: 600px;
+height: auto;
 }
+
+.main h1, footer h1 {
+background-color: #8DD3C3;
+text-align: center;
+padding: 0 10%;
+margin: 0 10%;
+margin-bottom: 2%;
+}
+
 
 footer {
 background-color: #E1EDEA;
