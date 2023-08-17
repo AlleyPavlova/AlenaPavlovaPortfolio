@@ -1,3 +1,3 @@
 function myFunction() {
-    document.getElementById("demo").innerHTML = "have a great day";
+    document.getElementById("demo").innerHTML = "Thank you for downloading my resume";
   }

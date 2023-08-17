@@ -79,8 +79,6 @@ height: auto;
     text-align: center;
 }
 
-
-
 :root{
     /* color type A */
     --line_color : #254D88 ;
@@ -413,3 +411,6 @@ height: auto;
   color: #ffffff;
 }
 
+.myFunction {
+    color: #254D88;
+}
