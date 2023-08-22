@@ -33,6 +33,7 @@ margin-bottom: 2%;
 footer {
 background-color: #E1EDEA;
 height: auto;
+text-align: center;
 }
 .textHeader {
     font: size 60px;
@@ -411,6 +412,11 @@ height: auto;
   color: #ffffff;
 }
 
-.myFunction {
-    color: #254D88;
+.blue{
+    background-color: #254D88;
+    height: 500px;
+}
+.purple{
+    background-color: #1C97B2;
+    height: 500px;
 }
